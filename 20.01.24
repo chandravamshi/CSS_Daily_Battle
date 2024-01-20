@@ -1,0 +1,52 @@
+<div class='p'>
+   <div class='h'>
+      <div class='le ea'></div>
+      <div class='e'></div>
+      <div class='re ea'></div>
+   </div>
+</div>
+<style>
+  .p {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #602820;
+}
+.h {
+	position: relative;
+	border-radius: 75px 75px 20px 20px;
+	width: 150px;
+	height: 160px;
+	background: #FAC2A8;
+}
+.e {
+	position: absolute;
+	background: #F16B4A;
+	width: 80px;
+	height: 50px;
+	top: 75px;
+	left: 35px;
+	border-radius: 15px
+}
+.ea {
+	position: absolute;
+	background: #F16B4A;
+	width: 15px;
+	height: 50px;
+	top: 75px;
+}
+.le {
+	left: -15px;
+	border-radius: 20px 0px 0px 20px;
+}
+.re {
+	right: -15px;
+	border-radius: 0px 20px 20px 0px;
+}
+</style>
